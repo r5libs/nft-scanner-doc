@@ -10,8 +10,10 @@ https://node1.apgame001.com/nft/{contractAddress}/{tokenId}/owners
 ```
 
 - 輸入
-  - contractAddress: 智能合約地址
-  - tokenId: NFT的TokenId
+```bash
+contractAddress: 智能合約地址
+tokenId: NFT的TokenId
+```
 
 - 輸出
 ```bash
@@ -38,8 +40,10 @@ https://node1.apgame001.com/{ownerAddress}/nft/{contractAddress}
 ```
 
 - 輸入
-  - ownerAddress: 會員地址
-  - contractAddress: 智能合約地址
+```bash
+ownerAddress: 會員地址
+contractAddress: 智能合約地址
+```
 
 - 輸出
 ```bash
@@ -59,12 +63,17 @@ https://node1.apgame001.com/{ownerAddress}/nft/{contractAddress}
 
 
 ## API: 資料同步(每當新增NFT則必須呼叫此API)
+- 格式
 ```bash
 https://node1.apgame001.com/sync
 ```
 
 - 輸入
-  無
-  
+```bash
+無
+```
+
 - 輸出
-  無
+```bash
+無
+```
