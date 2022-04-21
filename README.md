@@ -11,7 +11,7 @@ tokenId: NFT的TokenId
 ```
 
 - 返回值
-```json
+```js
 {
   total: 1, // 總數量
   result: [
@@ -39,7 +39,7 @@ contractAddress: 智能合約地址
 ```
 
 - 返回值
-```json
+```js
 {
   total: 1, // 總數量
   result: [
@@ -66,6 +66,6 @@ contractAddress: 智能合約地址
 ```
 
 - 返回值
-```json
+```js
 無
 ```
