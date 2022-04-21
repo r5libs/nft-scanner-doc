@@ -4,14 +4,14 @@
 /nft/{contractAddress}/{tokenId}/owners
 ```
 
-- 輸入
+- 參數
 ```bash
 contractAddress: 智能合約地址
 tokenId: NFT的TokenId
 ```
 
-- 輸出
-```bash
+- 返回值
+```json
 {
   total: 1, // 總數量
   result: [
@@ -32,14 +32,14 @@ tokenId: NFT的TokenId
 /owner/{ownerAddress}/nft/{contractAddress}
 ```
 
-- 輸入
+- 參數
 ```bash
 ownerAddress: 會員地址
 contractAddress: 智能合約地址
 ```
 
-- 輸出
-```bash
+- 返回值
+```json
 {
   total: 1, // 總數量
   result: [
@@ -60,12 +60,12 @@ contractAddress: 智能合約地址
 /sync
 ```
 
-- 輸入
+- 參數
 ```bash
 無
 ```
 
-- 輸出
-```bash
+- 返回值
+```json
 無
 ```
