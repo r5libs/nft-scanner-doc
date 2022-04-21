@@ -1,7 +1,7 @@
 ## API: 取得擁有此NFT的會員
 - 格式[(範例)](https://node1.apgame001.com/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963/61007109323655003125047866664436596704083617370037353424924359052686341963777/owners)
 ```bash
-https://node1.apgame001.com/nft/{contractAddress}/{tokenId}/owners
+/nft/{contractAddress}/{tokenId}/owners
 ```
 
 - 輸入
@@ -27,9 +27,9 @@ tokenId: NFT的TokenId
 ```
 
 ## API: 取得會員擁有的NFT
-- 格式[(範例)](https://node1.apgame001.com/0x2c1183487c6ca1e1a159257b481d25114169916f/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963)
+- 格式[(範例)](https://node1.apgame001.com/owner/0x2c1183487c6ca1e1a159257b481d25114169916f/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963)
 ```bash
-https://node1.apgame001.com/{ownerAddress}/nft/{contractAddress}
+/owner/{ownerAddress}/nft/{contractAddress}
 ```
 
 - 輸入
@@ -57,7 +57,7 @@ contractAddress: 智能合約地址
 ## API: 資料同步(每當新增NFT則須呼叫此API進行同步)
 - 格式
 ```bash
-https://node1.apgame001.com/sync
+/sync
 ```
 
 - 輸入
