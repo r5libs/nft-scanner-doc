@@ -2,9 +2,7 @@
 
 
 ## API: 取得擁有此NFT的會員
-[範例](https://node1.apgame001.com/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963/61007109323655003125047866664436596704083617370037353424924359052686341963777/owners)
-
-- 格式
+- 格式[(範例)](https://node1.apgame001.com/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963/61007109323655003125047866664436596704083617370037353424924359052686341963777/owners)
 ```bash
 https://node1.apgame001.com/nft/{contractAddress}/{tokenId}/owners
 ```
@@ -32,9 +30,7 @@ tokenId: NFT的TokenId
 ```
 
 ## API: 取得會員擁有的NFT
-[範例](https://node1.apgame001.com/0x2c1183487c6ca1e1a159257b481d25114169916f/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963)
-
-- 格式
+- 格式[(範例)](https://node1.apgame001.com/0x2c1183487c6ca1e1a159257b481d25114169916f/nft/0x2953399124f0cbb46d2cbacd8a89cf0599974963)
 ```bash
 https://node1.apgame001.com/{ownerAddress}/nft/{contractAddress}
 ```
